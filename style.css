@@ -1,0 +1,128 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background: cornflowerblue;
+}
+/* Contain Cards */
+.contain-cards{
+    background: whitesmoke;
+    margin: 10em 5em;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 1px 40px black;
+}
+
+/* Device Mobile */
+.contain-device{
+    width: 35%;
+    border-radius: 12px 0 0 12px;
+    position: relative;
+}
+.contain-device:hover{
+    background-image: linear-gradient(to bottom, whitesmoke 30%, rgb(211, 211, 211));
+}
+.mobile-device{
+    width: 80px;
+    margin: 2em 9.2em;
+}
+.title-device{
+    margin: 0 6em;
+    color: rgb(35, 71, 177);
+    letter-spacing: 2px;
+}
+.info-device{
+    margin: 1em 6em;
+    font-size: 17px;
+    color: rgb(43, 43, 43);
+}
+.price-device{
+    margin: 2em 5.5em .5em; 
+    font-size: 30px;
+    color: rgb(35, 71, 177);   
+}
+.dolar{
+    font-size: 11px;
+    position: absolute;
+    left: 159px;
+    top: 300px; 
+}
+.month{
+    font-size: 15px;
+    position: absolute;
+    left: 196px;
+    top: 307px;  
+}
+
+/* Laptop */
+.contain-laptop{
+    width: 35%;
+    position: relative;
+}
+.contain-laptop:hover{
+    background-image: linear-gradient(to bottom, whitesmoke 30%, rgb(211, 211, 211));
+}
+.laptop{
+    width: 80px;
+    margin: 2em 9.2em;
+}
+.title-laptop{
+    margin: 0 5.7em;
+    color: rgb(35, 71, 177);
+    letter-spacing: 2px;
+}
+.info-laptop{
+    margin: 1em 6em;
+    font-size: 17px;
+    color: rgb(43, 43, 43); 
+}
+.price-laptop{
+    margin: .5em 5.5em; 
+    font-size: 30px;
+    color: rgb(35, 71, 177);   
+}
+.dolar-laptop{
+    font-size: 11px;
+    position: absolute;
+    left: 159px;
+    top: 298px; 
+}
+.month-laptop{
+    font-size: 15px;
+    position: absolute;
+    left: 196px;
+    top: 305px;  
+}
+/* Device Mobile */
+.contain-tv{
+    width: 35%;
+    border-radius: 0 12px 12px 0;
+    position: relative;
+}
+.contain-tv:hover{
+    background-image: linear-gradient(to bottom, whitesmoke 30%, rgb(211, 211, 211));
+}
+.monitor{
+    width: 80px;
+    margin: 2em 9.2em;
+}
+.title-tv{
+    margin: 0 7.1em;
+    color: rgb(35, 71, 177);
+    letter-spacing: 2px;
+}
+.info-tv{
+    margin: 1em 6em;
+    font-size: 17px;
+    color: rgb(43, 43, 43);
+}
+.price-tv{
+    margin: 1.3em 5.5em .5em; 
+    font-size: 30px;
+    color: rgb(35, 71, 177);    
+}
